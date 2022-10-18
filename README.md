@@ -181,10 +181,10 @@ output.elasticsearch:
   # Array of hosts to connect to.
   hosts: ["localhost:9200"]
   username: "elastic"
-  password: "bGFikao*2cn3ZEA84Ar+"
+  password: "hogehogehoge"
   ssl:
     enabled: true
-    ca_trusted_fingerprint: "37a192ebcaea1bc9811eebb95c5eae47f62aa2ce0d34707b23e8f52ff01f5074"
+    ca_trusted_fingerprint: "hogehogehoge"
 
   # Protocol - either `http` (default) or `https`.
   protocol: "https"
