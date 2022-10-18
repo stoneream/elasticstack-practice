@@ -2,15 +2,27 @@
 
 ElasticSearchに何かしらのログを集めてみるテストをしたときのメモ
 
+## 主に必要なものとか使うもの
+
+- サーバー
+  - vagrantとかでいい
+- Elasticsearch
+- Filebeat
+- Kibana
+
 ## サーバーを用意する
 
 ```bash
 vagrant up --provider=virtualbox
 
+# 用意したサーバーに入る
 vagrant ssh
 
 # とりあえずいろいろアプデ
 sudo apt update && sudo apt upgrade
+
+# とりあえず他にも色々作業するのでtmuxを立ち上げる
+tmux
 ```
 
 ## Elasticsearchの導入と設定
@@ -28,9 +40,7 @@ tar -xzf elasticsearch-8.4.3-linux-x86_64.tar.gz
 
 cd elasticsearch-8.4.3/ 
 
-# 他にも色々作業するのでtmuxを立ち上げておくと良い
-# とりあえず起動
-
+# 起動
 ./bin/elasticsearch
 ```
 
