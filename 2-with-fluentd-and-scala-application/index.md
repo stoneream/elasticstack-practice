@@ -11,3 +11,11 @@
 ## 環境を構築する
 
 
+## 適当にScalaのアプリケーションを用意する
+
+メモ
+
+Scala - Fluentd : https://docs.fluentd.org/language-bindings/scala
+
+## ログが格納されていることを確認する
+
